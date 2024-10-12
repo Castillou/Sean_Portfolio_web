@@ -36,6 +36,9 @@ const GlobalStyles = createGlobalStyle`
     background-color: #edf2f4;
     font-family: "Knewave", system-ui;
   }
+	a {
+		text-decoration: none;
+	}
 `;
 
 const Wrapper = styled.div`

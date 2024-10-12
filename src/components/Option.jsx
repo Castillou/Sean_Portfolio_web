@@ -19,16 +19,21 @@ const Name = styled.h2`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: all 0.3s ease-in-out;
+
+	&.clicked {
+		background-color: #84dcc6;
+	}
 `;
 
 const ImgBox = styled.div`
 	height: 73vh;
 `;
 
-export default function Option({ name, onClick }) {
+export default function Option({ name, onClick, clicked }) {
 	return (
 		<Wrapper onClick={onClick}>
-			<Name>{name}</Name>
+			<Name className={clicked ? 'clicked' : ''}>{name}</Name>
 			<ImgBox></ImgBox>
 		</Wrapper>
 	);
