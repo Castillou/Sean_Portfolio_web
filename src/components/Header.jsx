@@ -13,9 +13,10 @@ const Logo = styled.h1`
 	a {
 		display: block;
 		font-size: 3.5rem;
-		font-weight: 600;
-		color: #333;
+		font-weight: 900;
+		color: #5040ff;
 		text-decoration: none;
+		outline: none;
 	}
 `;
 const Navigation = styled.nav`
@@ -29,6 +30,7 @@ const Navigation = styled.nav`
 		color: #333;
 		font-size: 2rem;
 		text-decoration: none;
+		outline: none;
 	}
 	ul > li:hover > a {
 		opacity: 0.6;
@@ -45,6 +47,7 @@ const Remixbox = styled.div`
 		border: 1px solid #333;
 		background-color: #333;
 		transition: all 0.2s ease-in-out;
+		outline: none;
 	}
 	a:hover {
 		color: #333;
@@ -56,7 +59,7 @@ export default function HeaderComp() {
 	return (
 		<Header>
 			<Logo>
-				<Link to="/">sean</Link>
+				<Link to="/">SEAN</Link>
 			</Logo>
 			<Navigation>
 				<ul>

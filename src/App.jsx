@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 62.5%
   }
   body {
-    font-family: Helvetica, sans-serif;
+    font-family: Pretendard, sans-serif;
   }
 `;
 
